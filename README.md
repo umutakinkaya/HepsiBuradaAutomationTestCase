@@ -19,6 +19,7 @@
 	Proje 'maven run' için uygundur. Dolayısıyla bir repoya atılması durumunda Jenkins üzerinden yönetilebilir haldedir.
 	Projede her fonksiyonun assertion adımları mevcuttur. Sayfa geçişleri de bu seviyede kontrol edilmiştir. Projenin genişliği ve kritiklik sevivyesine göre assertion miktarları da artabilir.
  
+ 	Not: Proje dosyasında kullanılan chromedriver ve geckodriver lokalimdeki chrome ve firefox sürümleri için indirdiğim sürümlerdir. Projede lokaldeki sürümü otomatik alıp ona göre driver indiren bir kütüphane de kullanabilirdim. Ancak iş bilgisayarlarınızda 3rd party bir kütüphanenin çalışmasını istemeyebileceğinizden bu kısımında driverları proje kalsöründe tutmayı daha doğru buldum
 
 
 Bonus Soru-)	Sitede alışveriş yaparken sepet içeriğinin görülmesi için sepetim butonuna tıklanıyor ve yeni bir sayfaya yönlendiriliyor. 
