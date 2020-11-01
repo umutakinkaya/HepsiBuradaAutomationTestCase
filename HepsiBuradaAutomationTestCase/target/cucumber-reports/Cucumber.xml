@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="83.582161">
+    <testcase classname="HepsiBurada Automation Test Case" name="User launch and register the website, then order and checking functionality of website" time="83.582161">
+        <system-out>
+            <![CDATA[Given i go to website with chrome...........................................passed
+When i click signin button..................................................passed
+Then i click emailspan......................................................passed
+Then i click create an account button.......................................passed
+Then i fill the mandatory fields of the register form.......................passed
+Then i click register.......................................................passed
+Then i click home button and assert username................................passed
+Then i click dresses > summer dresses.......................................passed
+Then i add a summer dress product in basket.................................passed
+Then i search summer on the searchbar.......................................passed
+Then i add a summer dress product in basket.................................passed
+Then i click card > checkout................................................passed
+Then i click proceed checkout...............................................passed
+Then i click proceed checkout for shipping address..........................passed
+Then i click terms of signing of shipping...................................passed
+Then i click proceed checkout...............................................passed
+Then i choose bankwire payment method.......................................passed
+Then i click order confirmation.............................................passed
+Then i click user account...................................................passed
+Then i click order history and detail.......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
