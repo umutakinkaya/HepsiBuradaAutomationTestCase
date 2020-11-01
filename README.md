@@ -13,13 +13,10 @@
 	Aynı klasör altında html raporu da index.html adı ile üretilmektedir.
 	Projede bir adımın hata alması durumunda screenshot yine aynı klasörün altında embedded0.png adı ile tutulmaktadır.
 	projenin hata alması durumunda html raporunun içerisinde screenshot görüntülenebilir. 
-
 	Projede browser geçişleri feature dosyaları içerisinde BDD formatı gereği kullanıcıya bırakılmıştır. 
 	"i go to website with chrome" veya "i go to website with firefox" diyerek testi kullanan kişi parametrik geçiş yapabilir.
 	Proje aynı zamanda cross-platform çalışmaya da müsaittir. Test aynı anda hem chrome'da hem de firefox'ta koşulabilir.
-
 	Proje 'maven run' için uygundur. Dolayısıyla bir repoya atılması durumunda Jenkins üzerinden yönetilebilir haldedir.
-
 	Projede her fonksiyonun assertion adımları mevcuttur. Sayfa geçişleri de bu seviyede kontrol edilmiştir. Projenin genişliği ve kritiklik sevivyesine göre assertion miktarları da artabilir.
  
 
